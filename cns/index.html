@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Password Strength Checker</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p id="login-status"></p>
+    </div>
+    <div class="protection-section">
+    <h2>Protection Against Password Attacks</h2>
+    <div class="attack-demo">
+        <h3>Brute Force Attack</h3>
+        <p>Protect your account against brute force attacks by using strong passwords and enabling account lockouts after multiple failed login attempts.</p>
+    </div>
+    <div class="attack-demo">
+        <h3>Phishing Attack</h3>
+        <p>Defend against phishing attacks by verifying the authenticity of websites and never sharing your password through suspicious links or emails.</p>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

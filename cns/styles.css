@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(vbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#strength-text {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#strength {
+    color: red;
+}
+.protection-section {
+    margin-top: 30px;
+}
+
+.protection-section h2 {
+    font-size: 24px;
+}
+
+.attack-demo {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.attack-demo h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.attack-demo p {
+    margin: 10px 0;
+}
